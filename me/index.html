@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SysTailsy | Accueil</title>
+</head>
+
+<style>
+
+    *{
+        padding:0;
+        margin:0;
+        background-color: black;
+        color:white;
+        font-family: 'Titillium Web', sans-serif;
+        text-decoration: none;
+        list-style: none;
+    }
+
+    .navbar{
+        padding: 25px;
+    }
+
+    .content{
+        top: 50%;
+        position: absolute;
+        text-align: center;
+        width: 100%;
+    }
+
+    .navbar nav ul{
+        float:right;
+    }
+
+    .text1{
+        color:red;
+    }
+
+    .text2{
+        color: red;
+    }
+
+    .text3 {
+        color:red;
+    }
+
+    footer{
+        bottom:0;
+        width: 100%;
+        text-align: center;
+        position: absolute;
+        margin-bottom: 21px;
+    }
+</style>
+
+<body>
+    <div id="root">
+    <div class="container">
+    <div class="navbar">
+        <!-- Navbar soon -->
+        <nav>
+            <ul>
+                <li><a href="/me/src/coffee.html">☕ Buy me a <span class="text3">coffee</span></a></li>
+            </ul>
+        </nav>
+        <h2>Sys<span class="text1"></span></h2>
+    </div>
+    <div class="content">
+        <h2>"Hello <span class="text2">World</span>"</h2>
+        <br>
+        <p>Hi, I'm SysTailsy ! I'm a young web developer who learn actually.</p>
+    </div>
+    </div>
+    </div>
+
+    <!--<script>alert("Warning : Sorry for mobile users, mobile screen size is not adjusted.")</script>-->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    
+    <script>
+        var typed = new Typed(".text1", {
+            strings: ["Tailsy"],
+            typeSpeed: 180,
+        })
+    </script>
+</body>
+
+<footer>
+    <p>&copy SysTailsy 2023</p>
+</footer>
+
+</html>
